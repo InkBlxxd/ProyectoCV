@@ -1,3 +1,5 @@
+/* Boton Subir */
+
 let btn = document.querySelector("#boton-arriba");
 
 window.addEventListener('scroll', () => {

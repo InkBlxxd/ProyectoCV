@@ -95,11 +95,10 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#iconos i {
+#iconos div {
     display: inline-block;
-    font-size: 3rem;
     margin: 20px;
-    transition: 0.2s;
+
 }
 
 #iconos p {
@@ -130,10 +129,14 @@ img {
     text-align: center;
 }
 
-#boton-arriba i {
-    font-size: 1.5rem;
-    z-index: 10;
-    color: #fff;
+.material-symbols-outlined {
+    color: #868686;
+    font-size: 3rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 #experiencia {
